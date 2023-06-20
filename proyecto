@@ -24,11 +24,11 @@ void setup(){
   lcd.init();
   lcd.backlight();
   
-  //Analogicos
+  // aqui definimos que hacen los pines analogicos
   pinMode(PinPR, INPUT);
   pinMode(PinH, INPUT);
   
-  //Digitales
+  //Aqui definimos que hacen los pines digitales
   pinMode(Trig, OUTPUT);
   pinMode(Echo, INPUT);
   motor.attach(SM);
